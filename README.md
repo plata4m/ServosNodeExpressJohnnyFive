@@ -12,7 +12,7 @@ Contém os fontes e dependências para rodar o NodeJS permitindo acessos ao hard
 
 # Parte Web
 
-Contém os fontes HTML e JavaScript com um component Range do HTML chamando o serviço NodeJS enviando o valor para girar o servo. 
+Contém os fontes HTML e JavaScript. Script bem simples onde um component Range do HTML, a cada movimento chama um serviço do express no NodeJS, onde recebe o valor selecionado no range para girar o servo motor. 
 
 Basta baixar e rodar. Projeto de estudos Iot com Servo Motor com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino. 
 
