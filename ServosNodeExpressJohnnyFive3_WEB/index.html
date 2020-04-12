@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>iot</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<script src="jquery-3.5.0.min.js"></script>
+<body>
+<div style="margin: auto;  width: 50%;  border: 3px solid silver;  padding: 10px;">
+    <h1>Range Controlando Servo Motor por HTTP remotamente</h1>
+    <p align = "center">Mova o range para controlar o servo motor<br /><br />
+
+      <input type="range" min="1" max="180" value="90" class="" id="myRange"><br /><br />
+      Ângulo do servo: <span id="valorAngulo" style="font-size:28px;"></span>
+      </p>
+</div>
+
+<script>
+var slider = document.getElementById("myRange");
+var valorAngulo = document.getElementById("valorAngulo");
+valorAngulo.innerHTML = slider.value;
+
+slider.oninput = function() {
+  valorAngulo.innerHTML = this.value;
+  // $.get( "http://localhost:8000/servos/to/"+this.value, function( data ) {
+  //    console.log("Enviado: "+ this.value);
+  //    alert(data);
+  // });
+  enviaDadoas(this.value);
+}
+
+function enviaDadoas(valor){
+  jQuery.support.cors = true;
+  $.ajax({
+      url:"http://192.168.0.102:8000/servos/to/"+valor,
+      type: "GET",
+      contentType: 'text/html; charset=utf-8'
+  }).done(function(result) {
+    //alert("OK 1");
+  })
+  .fail(function(jqxhr, textStatus, error ) {
+    alert("erro "+ textStatus);
+  });
+}
+</script>
+
+</body>
+</html>
