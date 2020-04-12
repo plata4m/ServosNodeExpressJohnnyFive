@@ -25,6 +25,8 @@ Você pode utilizar o container/servidor de sua preferência para rodar os fonte
 Nesse projeto utilizei o Apache, apenas para rodar o HTML dentro de um contexto de servidor, para permitir as chamadas assincronas aos seviços do express no NodeJS. Não roda em React, pois React não é open source. Você terá que fazer algumas simples mudanças para rodar nesse framework. 
 
 O projeto funcionando no Youtube
+https://www.youtube.com/watch?v=LqB1nf5IGY8
+
 
 ![Alt Text](https://github.com/plata4m/ServosNodeExpressJohnnyFive/blob/master/iot2.jpg)
 
