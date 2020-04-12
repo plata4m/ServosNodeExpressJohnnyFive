@@ -3,7 +3,7 @@
 Segue meu projeto de estudos Iot onde controlo um servo Motor com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino
 
 <br />
-O projeto é bem simples e está separado emduas partes. 
+O projeto é bem simples e está separado em duas partes. 
 
 # Parte NodeJS
 
@@ -15,6 +15,10 @@ Contém os fontes HTML e JavaScript com um component Range do HTML chamando o se
 
 Basta baixar e rodar. Projeto de estudos Iot com Servo Motor com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino. 
 
+<br /><br />
+
+Você pode utilizar o container/servidor de sua preferência para rodar os fontes como Jboss, Tomcat, Apache etc. <br />
+Nesse projeto utilizei o Apache apenas para rodar o HTML dentro de um contexto de servidor para permitir as chamadas assincronas aos seviços do express no NodeJS. Não roda em React, pois React não é open source. Você terá que fazer algumas simples mudanças para rodar nesse framework. 
 
 
 
