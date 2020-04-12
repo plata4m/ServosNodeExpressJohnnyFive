@@ -23,10 +23,6 @@ valorAngulo.innerHTML = slider.value;
 
 slider.oninput = function() {
   valorAngulo.innerHTML = this.value;
-  // $.get( "http://localhost:8000/servos/to/"+this.value, function( data ) {
-  //    console.log("Enviado: "+ this.value);
-  //    alert(data);
-  // });
   enviaDadoas(this.value);
 }
 
@@ -37,7 +33,7 @@ function enviaDadoas(valor){
       type: "GET",
       contentType: 'text/html; charset=utf-8'
   }).done(function(result) {
-    //alert("OK 1");
+    //
   })
   .fail(function(jqxhr, textStatus, error ) {
     alert("erro "+ textStatus);
