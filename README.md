@@ -4,7 +4,7 @@ Segue meu projeto de estudos Iot onde controlo um servo Motor com JavaScript, No
 Onde o componente Range do HTML5 puro controla o ângulo em tempo real do servo motor.
 
 <br />
-O projeto é bem simples e está separado em duas partes. 
+O projeto é bem simples e está separado em três partes. 
 
 # Parte NodeJS
 
