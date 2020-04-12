@@ -15,9 +15,9 @@ Contém os fontes HTML e JavaScript com um component Range do HTML chamando o se
 
 Basta baixar e rodar. Projeto de estudos Iot com Servo Motor com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino. 
 
-# Arduino Exemplo já existente no ambiente
+# Arduino
 
-Dentro da IDE do arduino vá em: Arquivo->Exemplos->Firmata->StandardFirmata. Enviapara o arduino. Pronto. Pode fechar a IDE e continuar como projeto Web e NodeJS. 
+Exemplo já existente no ambiente dentro da IDE do arduino, vá em: Arquivo->Exemplos->Firmata->StandardFirmata. Enviapara o arduino. Pronto. Pode fechar a IDE e continuar como projeto Web e NodeJS. 
 
 
 <br /><br />
