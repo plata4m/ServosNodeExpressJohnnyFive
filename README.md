@@ -8,7 +8,7 @@ O projeto é bem simples e está separado em três partes.
 
 # Parte NodeJS
 
-Contém os fontes e dependências para rodar o NodeJS permitindo acessos ao hardware. Basta mudar o ip para seu projeto e iniciar o nodejs.
+Contém os fontes e dependências para rodar o express e JohnnyFive no NodeJS permitindo acessos ao hardware. Basta mudar o ip para o seu projeto e iniciar o nodejs.
 
 # Parte Web
 
