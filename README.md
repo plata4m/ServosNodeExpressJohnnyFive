@@ -19,8 +19,7 @@ Basta baixar e rodar. Projeto de estudos Iot com Servo Motor com JavaScript, Nod
 
 Exemplo já existente no ambiente dentro da IDE do arduino, vá em: Arquivo->Exemplos->Firmata->StandardFirmata. Enviapara o arduino. Pronto. Pode fechar a IDE e continuar como projeto Web e NodeJS. 
 
-
-<br /><br />
+<br />
 
 Você pode utilizar o container/servidor de sua preferência para rodar os fontes como Jboss, Tomcat, Apache etc. <br />
 Nesse projeto utilizei o Apache apenas para rodar o HTML dentro de um contexto de servidor para permitir as chamadas assincronas aos seviços do express no NodeJS. Não roda em React, pois React não é open source. Você terá que fazer algumas simples mudanças para rodar nesse framework. 
