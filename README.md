@@ -1,16 +1,15 @@
 # Controlando um Servo Motor com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino
 
-Segue meu projeto de estudos para controlar um servo Motor com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino
+Segue meu projeto de estudos Iot onde controlo um servo Motor com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino
 
-#
-
+<br />
 O projeto é bem simples e está separado emduas partes. 
 
-#Parte NodeJS
+# Parte NodeJS
 
 Contém os fontes e dependências para rodar o NodeJS permitindo acessos ao hardware. Basta mudar o ip para seu projeto e iniciar o nodejs.
 
-#Parte Web
+# Parte Web
 
 Contém os fontes HTML e JavaScript com um component Range do HTML chamando o serviço NodeJS enviando o valor para girar o servo. 
 
