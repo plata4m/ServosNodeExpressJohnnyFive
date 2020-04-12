@@ -24,6 +24,10 @@ Exemplo já existente no ambiente dentro da IDE do arduino, vá em: Arquivo->Exe
 Você pode utilizar o container/servidor de sua preferência para rodar os fontes como Jboss, Tomcat, Apache etc. <br />
 Nesse projeto utilizei o Apache, apenas para rodar o HTML dentro de um contexto de servidor, para permitir as chamadas assincronas aos seviços do express no NodeJS. Não roda em React, pois React não é open source. Você terá que fazer algumas simples mudanças para rodar nesse framework. 
 
+O projeto funcionando no Youtube
+
+![Alt Text](https://github.com/plata4m/ServosNodeExpressJohnnyFive/blob/master/iot.jpg)
+
 
 
 
