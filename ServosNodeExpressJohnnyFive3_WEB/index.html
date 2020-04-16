@@ -29,7 +29,7 @@ slider.oninput = function() {
 function enviaDados(valor){
   jQuery.support.cors = true;
   $.ajax({
-      url:"http://192.168.0.102:8000/servos/to/"+valor,
+      url:"http://localhost:8000/servos/to/"+valor,
       type: "GET",
       contentType: 'text/html; charset=utf-8'
   }).done(function(result) {
