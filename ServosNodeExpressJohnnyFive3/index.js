@@ -11,15 +11,13 @@ var five = require("johnny-five"),
 
 board.on("ready", function() {
   console.log("### Board ready!");
-  // Initialize a Servo collection
   console.log("### initializing servo array: ", servoPins );
   servos = new five.Servos(servoPins);
-  console.log("### centering servos in array");
   servos.center();
 });
 
 var corsOptions = {
-  origin: 'http://192.168.0.102',
+  origin: 'http://localhost',
   optionsSuccessStatus: 200
 }
 app.use(cors(corsOptions));
