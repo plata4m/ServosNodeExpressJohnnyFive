@@ -1,4 +1,4 @@
-# Iot - Controlando um Servo Motor Pela Internet <br />com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino
+# Iot - Controlando um Servo Motor Pela Internet <br />com JavaScript, NodeJS, ReactJS, Express, Cors, JohnnyFive e Arduino
 
 Segue meu projeto de estudos Iot onde controlo um servo Motor com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino
 Onde o componente Range do HTML5 puro controla o ângulo em tempo real do servo motor.
