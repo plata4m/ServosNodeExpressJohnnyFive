@@ -21,7 +21,9 @@ Exemplo já existente no ambiente dentro da IDE do arduino, vá em: Arquivo->Exe
 <br />
 Basta baixar e rodar. Projeto de Iot com um Servo Motor sendo controlado em tempo real pela internet com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino. 
 
-Você pode utilizar o container/servidor de sua preferência para rodar os fontes como Jboss, Tomcat, Apache ou, NodeJs. <br />
+Para o front-end você pode utilizar o container/servidor de sua preferência para rodar os fontes como Jboss, Tomcat, Apache ou, NodeJs. <br />
+Para o back end deve se utilizar o NodeJS. Foi a arquitetura mais simples que achei para colocar hardwares na internet. <br />
+
 Nesse projeto utilizei o Apache e NodeJS como testes, para rodar o HTML dentro de um contexto de servidor, para permitir as chamadas assincronas aos seviços do express no NodeJS. 
 
 O projeto funcionando no Youtube
