@@ -12,17 +12,17 @@ Contém os fontes e dependências para rodar o express e JohnnyFive no NodeJS pe
 
 # Parte Web
 
-Contém os fontes HTML e JavaScript. Script bem simples onde um component Range do HTML, a cada movimento chama um serviço do express no NodeJS, onde recebe o valor selecionado no range para girar o servo motor. 
+Contém os fontes HTML e JavaScript. Script faz com que a cada iteração com o component Range do HTML, chama um serviço do express no NodeJS, onde recebe o valor selecionado no range para girar o servo motor. O cors ficou liberado para o servidor não pensar que a enxurrada de requisição seja um ataque ddos. Permitindo controlar o servo motor em tempo real.  
 
 # Arduino
 
-Exemplo já existente no ambiente dentro da IDE do arduino, vá em: Arquivo->Exemplos->Firmata->StandardFirmata. Enviapara o arduino. Pronto. Pode fechar a IDE e continuar com o projeto Web e NodeJS. 
+Exemplo já existente no ambiente dentro da IDE do arduino, vá em: Arquivo->Exemplos->Firmata->StandardFirmata. Envia para o arduino. Pronto. Pode fechar a IDE e continuar com o projeto Web e NodeJS. Lembre-se apenas verificar no script do nodejs os números das portas para a comunicação.  
 
 <br />
-Basta baixar e rodar. Projeto simples de Iot com um Servo Motor sendo controlado pela internet com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino. 
+Basta baixar e rodar. Projeto de Iot com um Servo Motor sendo controlado em tempo real pela internet com JavaScript, NodeJS, Express, Cors, JohnnyFive e Arduino. 
 
-Você pode utilizar o container/servidor de sua preferência para rodar os fontes como Jboss, Tomcat, Apache etc. <br />
-Nesse projeto utilizei o Apache, apenas para rodar o HTML dentro de um contexto de servidor, para permitir as chamadas assincronas aos seviços do express no NodeJS. A parte web não roda em React por ser 100% open source. Mas você pode fazer algumas simples mudanças para rodar nesse framework.
+Você pode utilizar o container/servidor de sua preferência para rodar os fontes como Jboss, Tomcat, Apache ou, NodeJs. <br />
+Nesse projeto utilizei o Apache e NodeJS como testes, para rodar o HTML dentro de um contexto de servidor, para permitir as chamadas assincronas aos seviços do express no NodeJS. 
 
 O projeto funcionando no Youtube
 https://www.youtube.com/watch?v=LqB1nf5IGY8
