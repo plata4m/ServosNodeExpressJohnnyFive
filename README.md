@@ -8,7 +8,7 @@ O projeto é bem simples e está separado em três partes.
 
 # Parte NodeJS
 
-Contém os fontes e dependências para rodar o express e JohnnyFive no NodeJS permitindo acessos ao hardware. Basta mudar o ip para o seu projeto e iniciar o nodejs.
+Contém os fontes para rodar o express e JohnnyFive no NodeJS permitindo acessos ao arduino e o servomotor. Basta mudar o ip para o seu projeto e iniciar o nodejs. Atenção apenas aos números das portas no código para plugar o servo no arduino. Pois você pode utilizar as portas que escolher.
 
 # Parte Web
 
